@@ -1,0 +1,180 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+/*
+nav{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 200px;
+    background-color: black;
+
+
+    position: fixed;   /*sticay وين ما اصل عنده بيثبته
+    top: 0;
+    right: 0;
+    left: 0;
+    color: #fff;
+    color: #fff;
+    position: sticky;
+    top: 0;
+    left: 0;
+    right: 0;
+
+}
+
+nav ul{
+    display: flex;
+}
+nav ul li{
+    padding: 0 20px;
+    list-style: none;
+    font-size: 20px;
+
+}
+section{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100vh;
+   
+    
+   
+  
+}
+section div{
+    width: 33%;
+}
+section div img{
+    width: 100%;
+}
+.parent{
+    position: relative;
+    
+    
+   
+}
+.child{
+   
+    border: 2px black solid;
+    position: absolute;
+  
+    left: 200px
+    bottom: -20px;
+    padding: 20px;
+   
+    
+    
+   
+    background-color: #fff;
+    
+
+}*/
+.sec{
+    height: 100vh;
+    background-image: url(../image/4.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    position: relative;
+  
+   
+    
+}
+.overlaye{
+    text-align: center;  
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(22,28,45,0.75);
+   
+   
+}
+form{
+    position: relative;
+}
+form input{
+    width: 50%;
+    padding: 15px 0;
+    border-radius: 50px;
+    border: none;
+    margin:  20px auto;
+    font-size: 1.1rem;
+    text-transform: capitalize;
+    
+}
+form button{
+    position: absolute;
+    top: 24px;
+    right: 280px;
+    padding: 13px 30px !important;
+    border-radius: 50px;
+    background-color: blueviolet;
+    color: aliceblue;
+    border: none;
+}
+.home{
+  position: relative;
+  text-align: center;
+  margin: 10%;
+
+    color: aliceblue;
+}
+
+.home h2{
+    font-size: 2rem;
+    margin-bottom: 20px;
+}
+.home p{
+    font-size: 1.1rem;
+    width: 50%;
+    margin: 20px auto;
+    color: rgb(142, 163, 182);
+   
+}
+.home button{
+    padding: 5px ;
+}
+nav{
+   display: flex;
+   position: relative;
+ 
+    justify-content: space-between;
+    align-items: center;
+    color: aliceblue;
+    padding: 20px 100px;
+    
+   
+}
+nav ul{
+    display: flex;
+}
+nav ul li{
+    margin: 0  12px;
+  
+    list-style: none;
+    font-size: 20px;
+
+}
+nav ul li:hover{
+    cursor: pointer;
+    color:blueviolet ;
+}
+nav ul li i{
+    background-color: aliceblue;
+    color: #000;
+    border-radius: 50%;
+    border: none;
+    padding: 6px  10px;
+   
+}
+nav div{
+    width: 50%;
+
+}
+
+
+
+
